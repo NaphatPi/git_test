@@ -1,5 +1,5 @@
 def main():
-    "Calculator program"
+    "Calculator program that can only perform addition!!"
     x = int(input('Please type the firt value: '))
     y = int(input('Please type the second value: '))
 

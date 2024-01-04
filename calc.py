@@ -11,17 +11,10 @@ def main():
     # then perform based on the operation
 
     # Perform calculation
-    if op == '+':
-        result = x + y
-    elif op == '-':
-        result = x - y
-    elif op == '*':
-        result = x * y
-    else:
-        result = x / y
+    result = eval(f'{x} {op} {y}')
 
 
-    print(f'The result of {x} {op} {y} is {result}')
+    print(f'The result of {x} {op} {y} is {result}.')
 
 
 if __name__ == '__main__':

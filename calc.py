@@ -7,8 +7,6 @@ def main():
         print('sorry, invalid operator')
         op = input("Please type the operator from '+-*/': ")
 
-    # TODO: ask user to select 1 operation from "+-*/"
-    # then perform based on the operation
 
     # Perform calculation
     result = eval(f'{x} {op} {y}')
@@ -19,3 +17,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
